@@ -4,8 +4,8 @@ import java.util.TreeMap;
 
 public class NumberConverter {
 
+    // Mapping roman numbers to decimal values
     private static final TreeMap<Integer, String> romanMap = new TreeMap<>();
-
     static {
         romanMap.put(1000, "M");
         romanMap.put(900, "CM");
